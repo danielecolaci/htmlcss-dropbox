@@ -121,7 +121,17 @@ header span {
 .central-top {
     width: 50%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.plan-input {
+    margin-bottom: 40px;
+    gap: 40px;
 }
 
 .col-4 {
@@ -153,8 +163,12 @@ header span {
 }
 
 .central-title2 {
-    min-height: 200px;
-    border: 1px solid black;
+    margin-bottom: 100px;
+    width: 70%;
+}
+
+.central-title2 a {
+    text-decoration: underline;
 }
 
 .first {
@@ -179,7 +193,17 @@ header span {
 .faq {
     width: 50%;
     max-width: 1000px;
-    min-height: 300px;
+    margin: 40px auto;
+}
+
+.question {
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    padding: 20px 0;
+    font-size: 12px;
 }
 
 /* /Main */
@@ -200,10 +224,6 @@ footer nav {
 
 footer h5 {
     margin-bottom: 20px;
-}
-
-footer ul {
-    list-style: none;
 }
 
 footer li {
