@@ -187,10 +187,47 @@ header span {
 
 footer {
     background-color: black;
-    min-height: 500px;
 }
 
-.footer-nav {
+footer nav {
     width: 64%;
     max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+    padding: 60px 0;
 }
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.language {
+    width: 64%;
+    color: gray;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+footer hr {
+    width: 100px;
+    border: 1px inset gray;
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-size: 12px;
+    padding: 0 5px
+}
+
+/* /Footer */
