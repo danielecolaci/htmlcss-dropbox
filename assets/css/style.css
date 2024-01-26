@@ -99,7 +99,7 @@ header span {
 .button {
     background-color: #0061FF;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 16px;
 }
 
 .fa-arrow-down {
@@ -169,6 +169,7 @@ h2 {
 
 .central-title2 a {
     text-decoration: underline;
+    font-size: 12px;
 }
 
 .first {
@@ -178,9 +179,10 @@ h2 {
 }
 
 .second {
-    min-height: 200px;
     width: 100%;
     background-color: #B4D0E7;
+    justify-content: center;
+    align-items: center;
 }
 
 .square {
@@ -188,6 +190,24 @@ h2 {
     height: 50%;
     background-color: brown;
     border: 1px solid black;
+}
+
+.business {
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.business h2 {
+    width: 60%;
+}
+
+.business .button {
+    color: black;
+    background-color: white;
 }
 
 .faq {
