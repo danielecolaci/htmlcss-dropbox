@@ -19,6 +19,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* Header */
@@ -152,9 +153,30 @@ h2 {
 }
 
 .partner {
-    min-height: 300px;
-    margin: 20px 0;
+    margin: 80px 0;
+    justify-content: space-between;
+}
+
+.partner img {
+    width: 50%;
+}
+
+.partner section {
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.partner .button {
+    color: black;
+    background-color: white;
     border: 1px solid black;
+    text-align: center;
 }
 
 .operazioni {
