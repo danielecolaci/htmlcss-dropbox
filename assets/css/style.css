@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -63,12 +64,9 @@ nav li {
     padding: 0 10px;
 }
 
-nav button {
-    background-color: #0061FF;
-    color: white;
+nav .button {
     padding: 6px 12px;
     font-size: 14px;
-    border: none;
 }
 
 /* /Nav */
@@ -419,3 +417,34 @@ footer span {
 }
 
 /* /Footer */
+/* Bonus */
+
+.button:hover {
+    filter: sepia(0.5)
+}
+
+.inizia:hover {
+    filter: sepia(0.5)
+}
+
+.fa-arrow-down {
+    animation: bounce 0.5s ease infinite alternate-reverse;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+nav li:hover {
+    filter: sepia(2);
+}
+
+.square:hover {
+    border: 20px solid rgba(0, 0, 0, 0.1);
+}
